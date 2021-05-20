@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test" preserve-order="false">
+    <classes>
+      <class name="com.ibm.testScripts.SendMailTest"/>
+      <class name="com.ibm.testScripts.FDTest"/>
+      <class name="com.ibm.testScripts.TopGainerTest"/>
+      <class name="com.ibm.testScripts.MutualFundTest"/>
+      <class name="com.ibm.testScripts.CurrencyConvertorTest"/>
+      <class name="com.ibm.testUtility.TestBase"/>
+    </classes>
+  </test> <!-- Command line test -->
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.ibm.testScripts.MutualFundTest">
+        <methods>
+          <include name="checkForData"/>
+        </methods>
+      </class> <!-- com.ibm.testScripts.MutualFundTest -->
+      <class name="com.ibm.testScripts.SendMailTest">
+        <methods>
+          <include name="init"/>
+          <include name="sendMail"/>
+        </methods>
+      </class> <!-- com.ibm.testScripts.SendMailTest -->
+      <class name="com.ibm.testScripts.FDTest">
+        <methods>
+          <include name="calculateFDTest"/>
+        </methods>
+      </class> <!-- com.ibm.testScripts.FDTest -->
+      <class name="com.ibm.testScripts.TopGainerTest">
+        <methods>
+          <include name="listCreateTest"/>
+        </methods>
+      </class> <!-- com.ibm.testScripts.TopGainerTest -->
+      <class name="com.ibm.testScripts.CurrencyConvertorTest">
+        <methods>
+          <include name="captureScreenShot"/>
+        </methods>
+      </class> <!-- com.ibm.testScripts.CurrencyConvertorTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
