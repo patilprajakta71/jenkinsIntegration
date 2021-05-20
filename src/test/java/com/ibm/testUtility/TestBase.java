@@ -10,6 +10,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 import com.relevantcodes.extentreports.ExtentReports;
@@ -24,7 +25,7 @@ public class TestBase {
 
 	@BeforeSuite
 	@Parameters("browser")
-	public void init(String browser) {
+	public void init(@Optional String browser) {
 
 		String currentDirectory = System.getProperty("user.dir");
 
