@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Login Test Suite]">
+  <parameter name="browser" value="chrome"/>
+  <test name="Validate Login">
+    <classes>
+      <class name="com.ibm.testScripts.CurrencyConvertorTest"/>
+    </classes>
+  </test> <!-- Validate Login -->
+</suite> <!-- Failed suite [Login Test Suite] -->

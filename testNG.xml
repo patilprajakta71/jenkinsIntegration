@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Login Test Suite">
+
+  <parameter name = "browser" value="chrome"/>
+	<test name="Validate Login">
+	<classes>
+	<!--  <class name = "com.ibm.testScripts.DownloadTest"/>
+	
+	<class name = "com.ibm.testScripts.TopGainerTest"/>
+	
+	
+	<class name = "com.ibm.testScripts.MutualFundTest"/>
+	
+	
+	<class name = "com.ibm.testScripts.SendMailTest"/>
+	<class name = "com.ibm.testScripts.FDTest"/>
+	-->
+	<class name = "com.ibm.testScripts.CurrencyConvertorTest"/>
+	
+	
+	
+	
+	</classes>
+
+</test>
+</suite>
