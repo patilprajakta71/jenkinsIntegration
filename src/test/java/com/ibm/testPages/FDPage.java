@@ -38,6 +38,7 @@ import com.ibm.testUtility.TestBase;
 public class FDPage extends TestBase {
 
 	public WebElement fixedIncomeLink;
+	public WebElement fixedIncomeLink3;
 	public WebElement typesBankTab;
 	public WebElement filterCheck;
 	public WebElement applyFilterBtn;
